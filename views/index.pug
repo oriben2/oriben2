@@ -1,0 +1,64 @@
+extends ./layouts/default.pug
+
+block body
+    header.masthead
+        .container.h-100
+            .row.h-100
+                .col-lg-7.my-auto
+                    .header-content
+                        h1.mb-5 Discover how to monetize your social media
+                        a.btn.btn-outline.btn-round-xl.js-scroll-trigger(href='#influencers')
+                            include ../img/si-glyph-arrow-thin-down.svg
+    section#influencers.features
+        .container
+            .row
+                .col-lg-8
+                    .section-heading
+                        h2 Influencers
+                        p.text-muted Start monetizing your profile today
+                        hr
+                    p We will create your
+                .col-lg-4.my-auto
+                    .device-container
+                        .device-mockup.iphonex-portrait-dark
+                            .device
+                                .screen(data-parallax='scroll', data-position-x='left', data-position-y='40px', data-speed='0.2', data-image-src='/img/demo-diego-full.jpg')
+                                // Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else!
+                            .button
+                                // You can hook the "home button" to some JavaScript events or just remove it
+    section#brands.features
+        .container
+            .row
+                .col-lg-8
+                    .section-heading
+                        h2 Brands
+                        p.text-muted Find the right influencers for your product
+                        hr
+                    p We will create your
+    section.cta
+        .cta-content
+            .container
+                h2 It's absolutely free to start your own shop
+                a.btn.btn-outline.btn-xl.js-scroll-trigger(href='#contact') Let's do this
+        .overlay
+    section#contact.contact
+        .container: .row: .col-lg-6
+            h2
+                | We
+                |
+                i.fa.fa-heart
+                |
+                | new friends!
+            form#contact-us
+                .form-group
+                    label(for='inputEmail') Email address
+                    input#inputEmail.form-control(type='email', aria-describedby='emailHelp', placeholder='Enter email', name="email")
+                    small#emailHelp.form-text.text-muted We'll never share your email with anyone else.
+                .form-group
+                    label(for='inputName') Name
+                    input#inputName.form-control(type='text', placeholder='Enter name', name="name")
+                .form-group
+                    label(for='textContent') Your inquiry
+                    textarea#textContent.form-control(rows='3', name="content")
+
+                button.btn.btn-primary(type='submit') Send

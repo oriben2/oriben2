@@ -1,34 +1,74 @@
+# [Start Bootstrap - New Age](https://startbootstrap.com/template-overviews/new-age/)
 
-#Free Coming Soon Page HTML Template 
-created by https://comingsoonpage.com
+[New Age](http://startbootstrap.com/template-overviews/new-age/) is a web app landing page theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-Get your free download at https://www.seedprod.com/free-coming-soon-page/
+## Preview
 
-View Demo https://seedprod.github.io/free-coming-soon-page/
+[![New Age Preview](https://startbootstrap.com/assets/img/templates/new-age.jpg)](https://blackrockdigital.github.io/startbootstrap-new-age/)
 
-This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
-http://creativecommons.org/licenses/by-nc-nd/4.0/
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-new-age/)**
 
-=================================================
+## Status
 
-To get started follow this checklist:
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-new-age/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-new-age.svg)](https://www.npmjs.com/package/startbootstrap-new-age)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-new-age.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-new-age)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-new-age/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-new-age)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-new-age/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-new-age?type=dev)
 
-	1. Replace the *Page Title* on lines 23, 31 & 296
-	2. Set the *Page Description* on lines 26, 32 & 298
-	3. Set an optional *Logo* on lines 294 using the src attribute.
-	4. Set your *Facebook Profile* URL on line 312 using the href attribute.
-	5. Set your *Twitter Profile* URL on line 313 using the href attribute.
-	6. Set your *Email* on line 314 using the href attribute.
-	7. Set your background image on line 63, see file README.mb for additional background images.
-	8. Set your MailChimp email post URL on line 300 See video: https://youtu.be/YUdP1qfMot8
-	9. FTP to your Website. 
+## Download and Installation
 
-Pre selected background images values:
-* Wave: https://images.unsplash.com/photo-1449168013943-3a15804bb41c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1958d4bfb59a246c6092ff0daabd284b
-* Wood: https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=46a85a1451e47aea5152ade8299f2894
-* Mountain: https://images.unsplash.com/34/BA1yLjNnQCI1yisIZGEi_2013-07-16_1922_IMG_9873.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=bb861c990a141e90c492fe79f7ff4307
-* Sunset: https://images.unsplash.com/uploads/1412276054206cd55c23b/e04e888a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=f847427a77aaeb2f779366fc80446628
-* Ballons: https://images.unsplash.com/reserve/L55hYy77SLqb6zeTMlWr_IMG_9035.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=be8f13a3ec5d152f60ede73809372c97
-* Bridge: https://images.unsplash.com/photo-1449034446853-66c86144b0ad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=4a065bd135cef62a0425f00234a43b08
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/new-age/)
+* Install via npm: `npm i startbootstrap-new-age`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-new-age.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-new-age)
 
-###### Background Images are from http://unsplash.com and are license under Creative Commons 0 (Public Domain)
+## Usage
+
+### Basic Usage
+
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+
+### Advanced Usage
+
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+
+#### Gulp Tasks
+
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+- `gulp js` minifies the themes JS file
+- `gulp vendor` copies dependencies from node_modules to the vendor directory
+
+You must have npm and Gulp installed globally on your machine in order to use these features.
+
+## Troubleshooting and Help
+
+Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
+
+**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-new-age/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/new-age/).
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-new-age/blob/gh-pages/LICENSE) license.

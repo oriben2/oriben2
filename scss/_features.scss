@@ -1,0 +1,59 @@
+// Styling for the features section
+.device-mockup.iphonex-portrait-dark {
+    padding-bottom: 201.76%;
+}
+
+.device-mockup.iphonex-portrait-dark > .device {
+    background-image: url("../device-mockups/iphone_x/dark.png");
+}
+
+.device-mockup.iphonex-portrait-dark > .device > .screen {
+    top: 3%; bottom: 6%; left: 9%; right: 9%;
+}
+
+.parallax-mirror {
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+
+section.features {
+    .section-heading {
+        margin-bottom: 50px;
+        h2 {
+            margin-top: 0;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .device-container,
+    .feature-item {
+        max-width: 325px;
+        margin: 0 auto;
+    }
+    .device-container {
+        margin-bottom: 100px;
+        @media(min-width: 992px) {
+            margin-bottom: 0;
+        }
+    }
+    .feature-item {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        h3 {
+            font-size: 30px;
+        }
+        i {
+            font-size: 80px;
+            display: block;
+            margin-bottom: 15px;
+            background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+            background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
