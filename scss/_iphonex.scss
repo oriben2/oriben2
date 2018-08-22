@@ -1,0 +1,13 @@
+// Styling for the features section
+.device-mockup.iphonex-portrait-dark {
+  padding-bottom: 201.76%;
+}
+
+.device-mockup.iphonex-portrait-dark > .device {
+  background-image: url("../device-mockups/iphone_x/dark.png");
+}
+
+.device-mockup.iphonex-portrait-dark > .device > .screen {
+  top: 3%; bottom: 6.85%; left: 9%; right: 9%;
+}
+

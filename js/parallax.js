@@ -67,6 +67,12 @@
     if (this.positionX !== undefined) positions[0] = this.positionX.toLowerCase();
     if (this.positionY !== undefined) positions[1] = this.positionY.toLowerCase();
 
+		if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+			if (this.positionYMob !== undefined) {
+			  positions[1] = this.positionYMob.toLowerCase();
+			}
+		}
+
     self.positionX = positions[0];
     self.positionY = positions[1];
 
@@ -95,7 +101,8 @@
         this.$element.css({
           backgroundImage: 'url("' + this.imageSrc + '")',
           backgroundSize: 'cover',
-          backgroundPosition: this.position
+          backgroundPosition: this.position,
+          borderRadius: this.borderRadiusMob || '0'
         });
       }
       return this;
@@ -106,8 +113,9 @@
         this.$element.css({
           backgroundImage: 'url("' + this.imageSrc + '")',
           backgroundSize: 'cover',
-          backgroundPosition: this.position
-        });
+          backgroundPosition: this.position,
+					borderRadius: this.borderRadiusMob || '0'
+				});
       }
       return this;
     }

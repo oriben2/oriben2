@@ -250,21 +250,6 @@ section.download .badges .badge-link img {
   }
 }
 
-.device-mockup.iphonex-portrait-dark {
-  padding-bottom: 201.76%;
-}
-
-.device-mockup.iphonex-portrait-dark > .device {
-  background-image: url("../device-mockups/iphone_x/dark.png");
-}
-
-.device-mockup.iphonex-portrait-dark > .device > .screen {
-  top: 3%;
-  bottom: 6%;
-  left: 9%;
-  right: 9%;
-}
-
 .parallax-mirror img {
   max-width: 100% !important;
   height: auto !important;
@@ -427,6 +412,21 @@ footer ul li a {
 
 footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
   text-decoration: none;
+}
+
+.device-mockup.iphonex-portrait-dark {
+  padding-bottom: 201.76%;
+}
+
+.device-mockup.iphonex-portrait-dark > .device {
+  background-image: url("../device-mockups/iphone_x/dark.png");
+}
+
+.device-mockup.iphonex-portrait-dark > .device > .screen {
+  top: 3%;
+  bottom: 6.85%;
+  left: 9%;
+  right: 9%;
 }
 
 .bg-primary {
