@@ -16,16 +16,17 @@ section.features {
             margin-bottom: 0;
         }
     }
+
+    @media (max-width: map-get($grid-breakpoints, lg)) {
+        .section-button {
+            text-align: center;
+        }
+    }
+
     .device-container,
     .feature-item {
         max-width: 325px;
         margin: 0 auto;
-    }
-    .device-container {
-        margin-bottom: 100px;
-        @media(min-width: 992px) {
-            margin-bottom: 0;
-        }
     }
     .feature-item {
         padding-top: 50px;

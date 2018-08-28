@@ -267,20 +267,16 @@ section.features .section-heading p {
   margin-bottom: 0;
 }
 
+@media (max-width: 992px) {
+  section.features .section-button {
+    text-align: center;
+  }
+}
+
 section.features .device-container,
 section.features .feature-item {
   max-width: 325px;
   margin: 0 auto;
-}
-
-section.features .device-container {
-  margin-bottom: 100px;
-}
-
-@media (min-width: 992px) {
-  section.features .device-container {
-    margin-bottom: 0;
-  }
 }
 
 section.features .feature-item {
