@@ -415,7 +415,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .device-mockup.iphonex-portrait-dark {
-  padding-bottom: 201.76%;
+  padding-bottom: 196.5%;
 }
 
 .device-mockup.iphonex-portrait-dark > .device {
@@ -427,6 +427,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   bottom: 6.85%;
   left: 9%;
   right: 9%;
+  border-radius: 32px;
 }
 
 .bg-primary {

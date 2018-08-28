@@ -1,6 +1,6 @@
 // Styling for the features section
 .device-mockup.iphonex-portrait-dark {
-  padding-bottom: 201.76%;
+  padding-bottom: 196.5%;
 }
 
 .device-mockup.iphonex-portrait-dark > .device {
@@ -9,5 +9,6 @@
 
 .device-mockup.iphonex-portrait-dark > .device > .screen {
   top: 3%; bottom: 6.85%; left: 9%; right: 9%;
+  border-radius: 32px;
 }
 
