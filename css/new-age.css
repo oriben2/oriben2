@@ -319,13 +319,20 @@ section.steps .section-heading {
 section.steps .step {
   border: none;
   border-left: 4px solid white;
-  border-image: linear-gradient(to bottom, #6369D1, #007bff) 1 100%;
+  border-image: linear-gradient(to bottom, #007bff, #6369D1) 1 100%;
   margin-bottom: 1rem;
+}
+
+section.steps .step h4.badge {
+  border-radius: 0;
+  font-size: 1rem;
+  margin-left: -11px;
+  padding-left: 11px;
 }
 
 section.steps .step h3 {
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 section.steps .step p {
@@ -506,4 +513,40 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
 }

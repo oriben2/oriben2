@@ -3,13 +3,19 @@ section.steps {
     margin-bottom: 50px;
   }
   .step {
+    h4.badge {
+      border-radius: 0;
+      font-size: 1rem;
+      margin-left: -11px;
+      padding-left: 11px;
+    }
     h3 {
       font-weight: 400;
-      font-size: 3rem;
+      font-size: 2rem;
     }
     border: none;
     border-left: 4px solid white;
-    border-image: linear-gradient(to bottom, $theme-tertiary, $theme-secondary) 1 100%;
+    border-image: linear-gradient(to bottom, $theme-secondary, $theme-tertiary) 1 100%;
     margin-bottom: 1rem;
     p {
       margin-bottom: .5rem;
