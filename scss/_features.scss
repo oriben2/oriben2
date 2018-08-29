@@ -1,11 +1,4 @@
 
-.parallax-mirror {
-    img {
-        max-width: 100% !important;
-        height: auto !important;
-    }
-}
-
 section.features {
     .section-heading {
         margin-bottom: 50px;
@@ -44,5 +37,24 @@ section.features {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+    }
+
+    .action-button {
+        i {
+            font-size: 2rem;
+        }
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: white;
+        text-align: center;
+        background-color: $theme-tertiary;
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        border: none;
+        border-radius: 4rem;
     }
 }
