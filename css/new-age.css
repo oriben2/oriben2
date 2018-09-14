@@ -466,6 +466,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   border-radius: 32px;
 }
 
+.terms li {
+  margin-bottom: 1rem;
+}
+
 .bg-primary {
   background: #0CCE6B;
   background: -webkit-linear-gradient(#0CCE6B, #0bb65e);
