@@ -186,6 +186,15 @@ header.masthead {
   background: url("../img/bg-pattern.png"), linear-gradient(to left, #007bff, #6369D1);
 }
 
+header.masthead .row {
+  display: table;
+}
+
+header.masthead .row > .col-lg-7 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 header.masthead .header-content {
   max-width: 500px;
   text-align: center;

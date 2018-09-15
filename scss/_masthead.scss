@@ -25,6 +25,15 @@ header.colored {
 }
 
 header.masthead {
+    .row {
+        display: table;
+        > .col-lg-7 {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+
+
     position: relative;
 
     width: 100%;
