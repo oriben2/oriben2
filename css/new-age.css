@@ -47,6 +47,10 @@ p {
   margin-bottom: 20px;
 }
 
+li {
+  font-size: 18px;
+}
+
 section {
   padding: 60px 0;
 }
