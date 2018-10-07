@@ -331,7 +331,7 @@ section.steps .section-heading {
 
 section.steps .step {
   border: 0;
-  border-left: 4px solid white;
+  border-left: 2px solid white;
   border-image: linear-gradient(to bottom, #007bff, #6369D1) 1 100%;
   margin-bottom: 1rem;
   margin-top: 0;
@@ -339,9 +339,11 @@ section.steps .step {
 
 section.steps .step h4.badge {
   border-radius: 0;
-  font-size: 1rem;
-  margin-left: -11px;
-  padding-left: 11px;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  line-height: 28px;
+  text-align: center;
 }
 
 section.steps .step h3 {
