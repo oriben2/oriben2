@@ -81,8 +81,13 @@ block body
     section.cta
         .cta-content
             .container
-                h2 It's absolutely free to start your own shop
-                a.btn.btn-outline.btn-xl.js-scroll-trigger(href='https://app.boostin.media/dashboard/new-profile') Let's do this
+                .row
+                    .col-lg-6.col-md-12
+                        .watermark
+                            include ../img/shop.svg
+                    .col-lg-6.col-md-12
+                        h2 It's absolutely free to start your own shop
+                        .section-button: a.btn.btn-primary.btn-xl.js-scroll-trigger(href='https://app.boostin.media/dashboard/new-profile') Let's do this
     section#contact.contact
         .container: .row: .col-lg-6
             h2

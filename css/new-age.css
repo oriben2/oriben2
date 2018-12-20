@@ -358,12 +358,7 @@ section.steps .step p {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-position: center right;
 }
 
 section.cta .cta-content {
@@ -371,12 +366,26 @@ section.cta .cta-content {
   z-index: 1;
 }
 
+section.cta .cta-content .watermark {
+  z-index: 1;
+  position: relative;
+}
+
+section.cta .cta-content .watermark svg {
+  width: 500px;
+  max-width: 100%;
+  fill: rgba(0, 123, 255, 0.5);
+}
+
 section.cta .cta-content h2 {
+  z-index: 10;
+  position: relative;
   font-size: 50px;
   max-width: 450px;
   margin-top: 0;
   margin-bottom: 25px;
-  color: white;
+  color: #007bff;
+  font-weight: 800;
 }
 
 @media (min-width: 768px) {

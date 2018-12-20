@@ -2,18 +2,30 @@
 section.cta {
     position: relative;
     padding: 250px 0;
-    background-image: url('../img/bg-cta.jpg');
-    background-position: center;
-    @include background-cover;
+    background-position: center right;
     .cta-content {
+
         position: relative;
         z-index: 1;
+
+        .watermark  {
+            z-index: 1;
+            position: relative;
+            svg {;
+                width: 500px;
+                max-width: 100%;
+                fill: transparentize($theme-secondary, 0.5);
+            }
+        }
         h2 {
+            z-index: 10;
+            position: relative;
             font-size: 50px;
             max-width: 450px;
             margin-top: 0;
             margin-bottom: 25px;
-            color: white;
+            color: $theme-secondary;
+            font-weight: 800;
         }
         @media (min-width: 768px) {
             h2 {
